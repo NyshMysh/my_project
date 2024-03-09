@@ -11,7 +11,6 @@ const App = () => {
 
     const {theme, toggleTheme} = useTheme()
 
-
     return (
         <div className={classNames('app', {}, [theme])}>
             <Link to={'/about'} >about</Link>
